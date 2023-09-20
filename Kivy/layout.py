@@ -5,7 +5,7 @@ from kivy.core.window import Window
 
 Window.clearcolor = (1,1,1,1)
 Window.size=(360,600)
-class MyApp(App):
+class MyLayoutApp(App):
     def build(self):
         layout = BoxLayout(orientation="vertical",spacing=10,padding=100)
 
@@ -17,5 +17,5 @@ class MyApp(App):
 
         return layout
     
-MyApp().run()
+MyLayoutApp().run()
 

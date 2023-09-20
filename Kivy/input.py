@@ -31,11 +31,11 @@ class MyGridLayout(GridLayout):
 
         self.add_widget(Label(text=f"Hello{self.name.text} your email is {self.email.text}"))
 
-class MyApp(App):
+class MyInputApp(App):
     def build(self):
         return MyGridLayout()
     
-MyApp().run()
+MyInputApp().run()
 
 
 

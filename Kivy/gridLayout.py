@@ -5,7 +5,7 @@ from kivy.core.window import Window
 
 Window.clearcolor = (1,1,1,1)
 Window.size=(360,600)
-class MyApp(App):
+class MyGridApp(App):
     def build(self):
        layout = GridLayout(rows=2,col_force_default=True,col_default_width=200)
        
@@ -21,4 +21,4 @@ class MyApp(App):
 
        return layout
     
-MyApp().run()
+MyGridApp().run()

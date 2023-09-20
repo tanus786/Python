@@ -1,0 +1,1 @@
+Window.clearcolor=(1,1,1,1)
