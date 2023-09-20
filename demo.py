@@ -7,8 +7,13 @@ Window.clearcolor = (1,1,1,1)
 
 class ButtonApp(App):
     def build(self):
-        btn = Button(text="Hello",size_hint=(0.2,0.2),pos_hint={"center_x":0.5 , "center_y":0.5},font_size="20sp",on_press=self.btn_click)
-        return btn
+        return Button(
+            text="Hello",
+            size_hint=(0.2, 0.2),
+            pos_hint={"center_x": 0.5, "center_y": 0.5},
+            font_size="20sp",
+            on_press=self.btn_click,
+        )
     
     def btn_click(self,btn):
         print("Button Clicked")
